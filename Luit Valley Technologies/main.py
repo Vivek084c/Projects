@@ -1,8 +1,40 @@
 from fastapi import FastAPI, HTTPException, status
-from models import Blog, UpdateBlog
+# from models import Blog, UpdateBlog
 from database import blog_collection, blog_helper
 from bson import ObjectId
 from typing import List
+
+
+#debug
+from pydantic import BaseModel, Field
+
+class Blog(BaseModel):
+    title: str = Field(..., max_length=100)
+    content: str = Field(..., min_length=10)
+    author: str = Field(..., max_length=50)
+
+class UpdateBlog(BaseModel):
+    title: str = Field(None, max_length=100)
+    content: str = Field(None, min_length=10)
+    author: str = Field(None, max_length=50)
+
+from motor.motor_asyncio import AsyncIOMotorClient
+from bson import ObjectId
+
+# MongoDB connection URI
+MONGO_DETAILS = "<CONNECTION URI>"
+client = AsyncIOMotorClient(MONGO_DETAILS)
+database = client.school_blog
+blog_collection = database.get_collection("blogs")
+
+# Helper to convert MongoDB documents to dicts
+def blog_helper(blog) -> dict:
+    return {
+        "id": str(blog["_id"]),
+        "title": blog["title"],
+        "content": blog["content"],
+        "author": blog["author"],
+    }
 
 app = FastAPI()
 

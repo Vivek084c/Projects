@@ -1,0 +1,8 @@
+generate a pdf file, if its invoice,, 
+<company name>
+<company email>
+<contact number>
+<r item
+    quantity
+    pricer r>
+<total amount>
