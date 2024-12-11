@@ -22,7 +22,7 @@ from motor.motor_asyncio import AsyncIOMotorClient
 from bson import ObjectId
 
 # MongoDB connection URI
-MONGO_DETAILS = "<CONNECTION URI>"
+MONGO_DETAILS = "<CONNECTION URI>
 client = AsyncIOMotorClient(MONGO_DETAILS)
 database = client.school_blog
 blog_collection = database.get_collection("blogs")
