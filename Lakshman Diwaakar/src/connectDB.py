@@ -16,7 +16,7 @@ logger.setLevel('DEBUG')
 console_handler = logging.StreamHandler()
 console_handler.setLevel('DEBUG')
 
-log_file_path = os.path.join(log_dir, 'model_building.log')
+log_file_path = os.path.join(log_dir, 'connectDB.log')
 file_handler = logging.FileHandler(log_file_path)
 file_handler.setLevel('DEBUG')
 
@@ -29,30 +29,31 @@ logger.addHandler(file_handler)
 
 
 class pineconeDB:
-    def __init__(self, index_name, api_key):
+    def __init__(self, index_name, api_key, dimensions):
         self.index_name = index_name
         self.api_key = api_key
+        self.dimensions = dimensions
 
+    
     def configureDB(self):
         """
         connects to the database and return the pinecone object
-        """        
-        pinecone_api = os.getenv("PINECONE")
-        self.index_name = "quickstart"
+        """    
         pc = Pinecone(api_key=self.api_key)
+        logger.debug("Created the Pinecone Instance")
 
         existing_indexes = pc.list_indexes()
-
+        logger.debug("Fetched the existing Index")
 
         if self.index_name not in existing_indexes:
             # Create the index if it doesn't exist    
             pc.create_index(
                 name=self.index_name,
-                dimension=1536,  # Dimension of your dense model
+                dimension=self.dimensions,  # Dimension of your dense model
                 metric='dotproduct',  # Metric for similarity search
                 spec=ServerlessSpec(cloud='aws', region='us-east-1')
             )
-            logger.debug(f"Index '{self.index_name}' created successfully.")
+            logger.debug(f"Index '{self.index_name}' created successfully.- dimensions: {self.dimensions}")
         else:
             logger.debug(f"Index '{self.index_name}' already exists.")
 
