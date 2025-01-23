@@ -1,8 +1,12 @@
 from src.connectDB import pineconeDB
+from src.PreProcess import preprocess
 from dotenv import load_dotenv
 import os
 load_dotenv()
 # connecting to the databse
 
-pc = pineconeDB(index_name="lakshmandiwakar", api_key=os.getenv("PINECONE"), dimensions=1536 )
-pc.configureDB()
+# pc = pineconeDB(index_name="lakshmandiwakar", api_key=os.getenv("PINECONE"), dimensions=1536 )
+# pc.configureDB()
+preprocess.generate_embedding_data("data/mutula_fund.csv")
+
+
