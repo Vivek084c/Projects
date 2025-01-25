@@ -27,12 +27,15 @@ logger.addHandler(console_handler)
 logger.addHandler(file_handler)
 
 class preprocess:
-    def generate_embedding_data(self,path):
+    def generate_embedding_data(path, generation_count=-1):
         df = pd.read_csv(path)
         logger.debug("Completed Reading the Data csv")
         clms = list(df.columns)
         no_of_rows = len(df.iloc[:,0:1])
         logger.debug("Started The emebeding_data generation process")
+       
+        if generation_count==-1:
+            generation_count=no_of_rows
 
         embedding_data = []
         for i in range(no_of_rows):
@@ -40,9 +43,9 @@ class preprocess:
             s = ""
             for j in range(len(clms)):
                 s+=" "+str(clms[j])+" "+str(data[j])
-            embedding_data.append(s)
-            if i>=1:
+            if i>generation_count:
                 break
+            embedding_data.append(s)
 
         data = [{"id": f"item-{i+1}", "text": embedding_data[i]} for i in range(len(embedding_data))]
         logger.debug("Completed The emebeding_data generation process")

@@ -74,22 +74,23 @@ class Bedrock:
         logger.debug("Completed -  Done with vector Extraction")
         return result["embedding"]  # Embedding vector
     
-    def upsert_to_pinecone(self,data, index):
+    def upsert_to_pinecone(self,data, index, bedrock):
         """
         Data should be a list of dictionaries, where each dictionary contains:
         - 'id': unique ID for the item
         - 'text': the text to embed
         - 'index' : the index for the pinecone server
+        - 'bedrock' : configured bedrock client for embeding generation
         """
         logger.debug("Started - the Upload to pinecone databse")
         for item in data:
             text = item["text"]
-            embedding = self.generate_titan_embedding(text)
+            embedding = self.generate_titan_embedding(text, bedrock)
             index.upsert(vectors=[(item["id"], embedding)])
         logger.debug("Completed - the Upload to pinecone databse")
 
 
-    def query_pinecone(self, query_text, index, top_k=5):
+    def query_pinecone(self, query_text, index, bedrock, top_k=5):
         """
         Query Pinecone index with a text query and return results sorted by score in descending order.
         
@@ -103,7 +104,7 @@ class Bedrock:
         """
         # Generate embedding for the query
         logger.debug("Started -  Embedding generation ")
-        query_embedding = self.generate_titan_embedding(query_text)
+        query_embedding = self.generate_titan_embedding(query_text, bedrock)
         logger.debug("Completed -  Embedding generation ")
         
         # Query Pinecone index
