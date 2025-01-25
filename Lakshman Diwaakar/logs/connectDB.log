@@ -1,2 +1,6 @@
-2025-01-25 18:51:31,302 - model_building - DEBUG - Created the Pinecone Instance
-2025-01-25 18:51:34,221 - model_building - DEBUG - Fetched the existing Index
+2025-01-25 19:01:16,891 - connectDB - DEBUG - Created the Pinecone Instance
+2025-01-25 19:01:19,102 - connectDB - DEBUG - Fetched the existing Index
+2025-01-25 19:01:23,266 - connectDB - DEBUG - Index 'lakshmandiwakar' created successfully.- dimensions: 1536
+2025-01-25 19:03:40,753 - connectDB - DEBUG - Created the Pinecone Instance
+2025-01-25 19:03:42,509 - connectDB - DEBUG - Fetched the existing Index
+2025-01-25 19:03:52,700 - connectDB - DEBUG - Index 'lakshmandiwakar' created successfully.- dimensions: 1536

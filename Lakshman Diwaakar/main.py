@@ -6,20 +6,20 @@ from dotenv import load_dotenv
 import os
 load_dotenv()
 import json
-#loading the params file
+#loading the params file - stage 1
 params = Utils.load_params("config.yaml")
 
 
-# connecting to the databse
-pc = pineconeDB(index_name=params["pinecone"]["index_name"], api_key=os.getenv("PINECONE"), dimensions=1536 )
-pc.configureDB()
-print(params["pinecone"]["index_name"])
-# index = pc.Index(params["pinecone"]["index_name"])
+# # connecting to the databse - stage 2
+# pc = pineconeDB(index_name=params["pinecone"]["index_name"], api_key=os.getenv("PINECONE"), dimensions=1536 )
+# pc.configureDB()
+# print(params["pinecone"]["index_name"])
+# index = pc.get_index()
 
 
-# #preprocessing the data
-# data = preprocess.generate_embedding_data("data/mutula_fund.csv")
-# print(data)
+#preprocessing the data
+data = preprocess.generate_embedding_data("data/mutula_fund.csv")
+print(data)
 # preprocess.generate_titan_embedding(data, index)
 
 
