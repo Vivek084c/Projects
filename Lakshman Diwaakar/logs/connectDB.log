@@ -1,0 +1,2 @@
+2025-01-25 18:51:31,302 - model_building - DEBUG - Created the Pinecone Instance
+2025-01-25 18:51:34,221 - model_building - DEBUG - Fetched the existing Index

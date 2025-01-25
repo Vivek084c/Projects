@@ -50,38 +50,4 @@ class preprocess:
         #     print(i)
         return data
 
-    def generate_titan_embedding(self,text, bedrock, TITAN_EMBEDDING_MODEL):
-        """
-        Retures the Embedding data for a given text
-        Args:
-            text -  the input text
-            bedrock - Bedrock client for AWS
-            TITAN_EMBEDDING_MODEL - Embedding model name
-        Returs:
-            Embedding vector (dimension 1536)
-        """
-        logger.debug("Started - The Embedding vectore generation")
-        response = bedrock.invoke_model(
-            modelId=TITAN_EMBEDDING_MODEL,
-            contentType="application/json",
-            accept="application/json",
-            body=json.dumps({"inputText": text})
-        )
-        logger.debug("Completed -  The Embedding vectore generation")
-        result = json.loads(response["body"].read())
-        logger.debug("Completed -  Done with vector Extraction")
-        return result["embedding"]  # Embedding vector
     
-    def upsert_to_pinecone(self,data, index):
-        """
-        Data should be a list of dictionaries, where each dictionary contains:
-        - 'id': unique ID for the item
-        - 'text': the text to embed
-        - 'index' : the index for the pinecone server
-        """
-        logger.debug("Started - the Upload to pinecone databse")
-        for item in data:
-            text = item["text"]
-            embedding = self.generate_titan_embedding(text)
-            index.upsert(vectors=[(item["id"], embedding)])
-        logger.debug("Completed - the Upload to pinecone databse")
