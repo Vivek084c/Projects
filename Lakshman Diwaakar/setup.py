@@ -52,7 +52,7 @@ def setup_base():
 
     logging.debug("Started - Data Preprocessing")
     #preprocessing the data - stage 3
-    data = preprocess.generate_embedding_data(path = "data/mutula_fund.csv", generation_count=5)
+    data = preprocess.generate_embedding_data(path = "data/mutula_fund.csv", generation_count=-1)
     logging.debug("Completed - Data Preprocessing")
 
     logging.debug("Started - Bedrock client configuration")
