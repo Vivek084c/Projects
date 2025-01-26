@@ -29,19 +29,3 @@ output_rag = process_rag_response(
 
 print(output_rag)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-print("Percentage Allocation Change -1.686143078135275.")
