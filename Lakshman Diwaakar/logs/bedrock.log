@@ -91,3 +91,9 @@
 2025-01-26 12:08:26,590 - bedrock - DEBUG - [configure_get_client] - Started - Creating the aws client
 2025-01-26 12:08:26,650 - bedrock - DEBUG - [configure_get_client] - Completed - Creating the aws client
 2025-01-26 12:08:26,650 - bedrock - DEBUG - [configure_get_llm_client] - Started - Creating the aws client
+2025-01-26 13:01:29,576 - bedrock - DEBUG - [configure_get_client] - Started - Creating the aws client
+2025-01-26 13:01:29,654 - bedrock - DEBUG - [configure_get_client] - Completed - Creating the aws client
+2025-01-26 13:01:29,654 - bedrock - DEBUG - [configure_get_llm_client] - Started - Creating the aws client
+2025-01-26 13:02:40,243 - bedrock - DEBUG - [configure_get_client] - Started - Creating the aws client
+2025-01-26 13:02:40,301 - bedrock - DEBUG - [configure_get_client] - Completed - Creating the aws client
+2025-01-26 13:02:40,301 - bedrock - DEBUG - [configure_get_llm_client] - Started - Creating the aws client
