@@ -76,7 +76,7 @@ def setup_base():
 
 def setup_get_config():
     """
-    returns the pinecone index, bedrock_client(for aws), client object
+    returns the pinecone index, bedrock_client(for aws embedding),bedrock_client(for aws llm) client object
     """
 
     logging.debug("Started - Loading the params")
@@ -103,7 +103,10 @@ def setup_get_config():
     bedrock_client = client.configure_get_client()
     logging.debug("Completed - Bedrock client configuration")
 
-    return index, bedrock_client, client
+    logger.debug("Started - LLM configuration for aws")
+    bedrock_client_llm = client.configure_get_llm_client()
+
+    return index, bedrock_client, bedrock_client_llm, client
 
 if __name__=="__main__":
     setup_base()

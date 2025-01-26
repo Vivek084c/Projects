@@ -53,6 +53,17 @@ class Bedrock:
 
         return bedrock
     
+    def configure_get_llm_client(self):
+        logger.debug("Started - Creating the aws client")
+        
+        bedrock = boto3.client(
+        service_name = "bedrock-runtime",
+        aws_access_key_id = self.aws_access_key_id,
+        aws_secret_access_key = self.secret_access_key
+        )   
+
+        return bedrock
+
     def generate_titan_embedding(self,text, bedrock):
         """
         Retures the Embedding data for a given text

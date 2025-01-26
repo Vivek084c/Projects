@@ -1,6 +1,7 @@
 import yaml
 import os
 import logging
+import json
 
 # Ensure the "logs" directory exists
 log_dir = 'logs'
@@ -42,6 +43,32 @@ class Utils:
         except Exception as e:
             logger.error('Unexpected error: %s', e)
             raise
+
+    def getresponse(bedrock_client_llm, inputPrompt,max_tokens=30):
+        payload = {
+        "inputText": inputPrompt, 
+        "textGenerationConfig": {
+            "maxTokenCount": max_tokens,  # Adjust the maximum token count as needed
+            "stopSequences": [],   # List of stop sequences
+            "temperature": 0.7,    # Temperature for randomness
+            "topP": 1              # Top-p sampling parameter
+        }
+        }
+
+        body = json.dumps(payload)
+
+        model_id = "amazon.titan-text-lite-v1"
+        respnse  = bedrock_client_llm.invoke_model(
+            modelId = model_id,
+            contentType = "application/json",
+            accept = "application/json",
+            body = body
+        )
+        item = respnse["body"].read()
+        i = json.loads(item)
+        output = i["results"][0]["outputText"]
+        return output
+
         
 
     

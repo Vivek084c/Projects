@@ -10,3 +10,12 @@
 2025-01-26 11:46:40,120 - connectDB - DEBUG - Created the Pinecone Instance
 2025-01-26 11:46:41,848 - connectDB - DEBUG - Fetched the existing Index
 2025-01-26 11:46:47,129 - connectDB - DEBUG - Index 'lakshmandiwakar' created successfully.- dimensions: 1536
+2025-01-26 12:02:40,402 - connectDB - DEBUG - Created the Pinecone Instance
+2025-01-26 12:02:42,181 - connectDB - DEBUG - Fetched the existing Index
+2025-01-26 12:02:45,907 - connectDB - WARNING - Index 'lakshmandiwakar' already exists. Proceeding without creating it.
+2025-01-26 12:08:02,314 - connectDB - DEBUG - Created the Pinecone Instance
+2025-01-26 12:08:04,265 - connectDB - DEBUG - Fetched the existing Index
+2025-01-26 12:08:06,928 - connectDB - WARNING - Index 'lakshmandiwakar' already exists. Proceeding without creating it.
+2025-01-26 12:08:20,121 - connectDB - DEBUG - Created the Pinecone Instance
+2025-01-26 12:08:22,015 - connectDB - DEBUG - Fetched the existing Index
+2025-01-26 12:08:25,155 - connectDB - WARNING - Index 'lakshmandiwakar' already exists. Proceeding without creating it.
