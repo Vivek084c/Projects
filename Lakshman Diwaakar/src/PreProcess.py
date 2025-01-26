@@ -49,8 +49,6 @@ class preprocess:
 
         data = [{"id": f"item-{i+1}", "text": embedding_data[i]} for i in range(len(embedding_data))]
         logger.debug("Completed The emebeding_data generation process")
-        # for i in data:
-        #     print(i)
         return data
 
     

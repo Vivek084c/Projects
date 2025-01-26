@@ -1,47 +1,84 @@
-2025-01-25 22:10:34,770 - bedrock - DEBUG - [configure_get_client] - Started - Creating the aws client
-2025-01-25 22:10:34,845 - bedrock - DEBUG - [configure_get_client] - Completed - Creating the aws client
-2025-01-25 22:10:34,845 - bedrock - DEBUG - [generate_titan_embedding] - Started - The Embedding vectore generation
-2025-01-25 22:12:37,319 - bedrock - DEBUG - [configure_get_client] - Started - Creating the aws client
-2025-01-25 22:12:37,366 - bedrock - DEBUG - [configure_get_client] - Completed - Creating the aws client
-2025-01-25 22:12:37,366 - bedrock - DEBUG - [upsert_to_pinecone] - Started - the Upload to pinecone databse
-2025-01-25 22:14:34,369 - bedrock - DEBUG - [configure_get_client] - Started - Creating the aws client
-2025-01-25 22:14:34,440 - bedrock - DEBUG - [configure_get_client] - Completed - Creating the aws client
-2025-01-25 22:14:34,441 - bedrock - DEBUG - [upsert_to_pinecone] - Started - the Upload to pinecone databse
-2025-01-25 22:15:02,528 - bedrock - DEBUG - [configure_get_client] - Started - Creating the aws client
-2025-01-25 22:15:02,586 - bedrock - DEBUG - [configure_get_client] - Completed - Creating the aws client
-2025-01-25 22:15:02,586 - bedrock - DEBUG - [upsert_to_pinecone] - Started - the Upload to pinecone databse
-2025-01-25 22:15:22,645 - bedrock - DEBUG - [configure_get_client] - Started - Creating the aws client
-2025-01-25 22:15:22,696 - bedrock - DEBUG - [configure_get_client] - Completed - Creating the aws client
-2025-01-25 22:15:22,696 - bedrock - DEBUG - [upsert_to_pinecone] - Started - the Upload to pinecone databse
-2025-01-25 22:15:22,696 - bedrock - DEBUG - [generate_titan_embedding] - Started - The Embedding vectore generation
-2025-01-25 22:15:25,048 - bedrock - DEBUG - [generate_titan_embedding] - Completed -  The Embedding vectore generation
-2025-01-25 22:15:25,050 - bedrock - DEBUG - [generate_titan_embedding] - Completed -  Done with vector Extraction
-2025-01-25 22:15:33,903 - bedrock - DEBUG - [generate_titan_embedding] - Started - The Embedding vectore generation
-2025-01-25 22:15:34,386 - bedrock - DEBUG - [generate_titan_embedding] - Completed -  The Embedding vectore generation
-2025-01-25 22:15:34,388 - bedrock - DEBUG - [generate_titan_embedding] - Completed -  Done with vector Extraction
-2025-01-25 22:15:36,260 - bedrock - DEBUG - [generate_titan_embedding] - Started - The Embedding vectore generation
-2025-01-25 22:15:37,336 - bedrock - DEBUG - [generate_titan_embedding] - Completed -  The Embedding vectore generation
-2025-01-25 22:15:37,337 - bedrock - DEBUG - [generate_titan_embedding] - Completed -  Done with vector Extraction
-2025-01-25 22:15:38,567 - bedrock - DEBUG - [generate_titan_embedding] - Started - The Embedding vectore generation
-2025-01-25 22:15:39,489 - bedrock - DEBUG - [generate_titan_embedding] - Completed -  The Embedding vectore generation
-2025-01-25 22:15:39,490 - bedrock - DEBUG - [generate_titan_embedding] - Completed -  Done with vector Extraction
-2025-01-25 22:15:41,049 - bedrock - DEBUG - [generate_titan_embedding] - Started - The Embedding vectore generation
-2025-01-25 22:15:41,593 - bedrock - DEBUG - [generate_titan_embedding] - Completed -  The Embedding vectore generation
-2025-01-25 22:15:41,594 - bedrock - DEBUG - [generate_titan_embedding] - Completed -  Done with vector Extraction
-2025-01-25 22:15:42,174 - bedrock - DEBUG - [generate_titan_embedding] - Started - The Embedding vectore generation
-2025-01-25 22:15:42,621 - bedrock - DEBUG - [generate_titan_embedding] - Completed -  The Embedding vectore generation
-2025-01-25 22:15:42,623 - bedrock - DEBUG - [generate_titan_embedding] - Completed -  Done with vector Extraction
-2025-01-25 22:15:43,132 - bedrock - DEBUG - [upsert_to_pinecone] - Completed - the Upload to pinecone databse
-2025-01-25 22:19:13,233 - bedrock - DEBUG - [configure_get_client] - Started - Creating the aws client
-2025-01-25 22:19:13,309 - bedrock - DEBUG - [configure_get_client] - Completed - Creating the aws client
-2025-01-25 22:19:13,309 - bedrock - DEBUG - [query_pinecone] - Started -  Embedding generation 
-2025-01-25 22:20:59,016 - bedrock - DEBUG - [configure_get_client] - Started - Creating the aws client
-2025-01-25 22:20:59,090 - bedrock - DEBUG - [configure_get_client] - Completed - Creating the aws client
-2025-01-25 22:20:59,090 - bedrock - DEBUG - [query_pinecone] - Started -  Embedding generation 
-2025-01-25 22:20:59,090 - bedrock - DEBUG - [generate_titan_embedding] - Started - The Embedding vectore generation
-2025-01-25 22:21:01,116 - bedrock - DEBUG - [generate_titan_embedding] - Completed -  The Embedding vectore generation
-2025-01-25 22:21:01,729 - bedrock - DEBUG - [generate_titan_embedding] - Completed -  Done with vector Extraction
-2025-01-25 22:21:01,730 - bedrock - DEBUG - [query_pinecone] - Completed -  Embedding generation 
-2025-01-25 22:21:01,730 - bedrock - DEBUG - [query_pinecone] - Started - Pinecone Query
-2025-01-25 22:21:04,500 - bedrock - DEBUG - [query_pinecone] - Completed - Pinecone Query
-2025-01-25 22:21:04,500 - bedrock - DEBUG - [query_pinecone] - Returned the results
+2025-01-26 11:42:17,625 - bedrock - DEBUG - [configure_get_client] - Started - Creating the aws client
+2025-01-26 11:42:17,704 - bedrock - DEBUG - [configure_get_client] - Completed - Creating the aws client
+2025-01-26 11:42:17,704 - bedrock - DEBUG - [upsert_to_pinecone] - Started - the Upload to pinecone databse
+2025-01-26 11:42:17,704 - bedrock - DEBUG - [generate_titan_embedding] - Started - The Embedding vectore generation
+2025-01-26 11:42:19,656 - bedrock - DEBUG - [generate_titan_embedding] - Completed -  The Embedding vectore generation
+2025-01-26 11:42:19,657 - bedrock - DEBUG - [generate_titan_embedding] - Completed -  Done with vector Extraction
+2025-01-26 11:42:22,211 - bedrock - DEBUG - [generate_titan_embedding] - Started - The Embedding vectore generation
+2025-01-26 11:42:22,643 - bedrock - DEBUG - [generate_titan_embedding] - Completed -  The Embedding vectore generation
+2025-01-26 11:42:22,644 - bedrock - DEBUG - [generate_titan_embedding] - Completed -  Done with vector Extraction
+2025-01-26 11:42:23,202 - bedrock - DEBUG - [generate_titan_embedding] - Started - The Embedding vectore generation
+2025-01-26 11:42:23,623 - bedrock - DEBUG - [generate_titan_embedding] - Completed -  The Embedding vectore generation
+2025-01-26 11:42:23,647 - bedrock - DEBUG - [generate_titan_embedding] - Completed -  Done with vector Extraction
+2025-01-26 11:42:24,162 - bedrock - DEBUG - [generate_titan_embedding] - Started - The Embedding vectore generation
+2025-01-26 11:42:24,695 - bedrock - DEBUG - [generate_titan_embedding] - Completed -  The Embedding vectore generation
+2025-01-26 11:42:24,696 - bedrock - DEBUG - [generate_titan_embedding] - Completed -  Done with vector Extraction
+2025-01-26 11:42:25,186 - bedrock - DEBUG - [generate_titan_embedding] - Started - The Embedding vectore generation
+2025-01-26 11:42:26,008 - bedrock - DEBUG - [generate_titan_embedding] - Completed -  The Embedding vectore generation
+2025-01-26 11:42:26,010 - bedrock - DEBUG - [generate_titan_embedding] - Completed -  Done with vector Extraction
+2025-01-26 11:42:26,619 - bedrock - DEBUG - [generate_titan_embedding] - Started - The Embedding vectore generation
+2025-01-26 11:42:27,052 - bedrock - DEBUG - [generate_titan_embedding] - Completed -  The Embedding vectore generation
+2025-01-26 11:42:27,054 - bedrock - DEBUG - [generate_titan_embedding] - Completed -  Done with vector Extraction
+2025-01-26 11:42:27,558 - bedrock - DEBUG - [upsert_to_pinecone] - Completed - the Upload to pinecone databse
+2025-01-26 11:44:44,791 - bedrock - DEBUG - [configure_get_client] - Started - Creating the aws client
+2025-01-26 11:44:44,845 - bedrock - DEBUG - [configure_get_client] - Completed - Creating the aws client
+2025-01-26 11:44:44,845 - bedrock - DEBUG - [upsert_to_pinecone] - Started - the Upload to pinecone databse
+2025-01-26 11:44:44,845 - bedrock - DEBUG - [generate_titan_embedding] - Started - The Embedding vectore generation
+2025-01-26 11:44:46,799 - bedrock - DEBUG - [generate_titan_embedding] - Completed -  The Embedding vectore generation
+2025-01-26 11:44:47,241 - bedrock - DEBUG - [generate_titan_embedding] - Completed -  Done with vector Extraction
+2025-01-26 11:44:50,724 - bedrock - DEBUG - [generate_titan_embedding] - Started - The Embedding vectore generation
+2025-01-26 11:44:51,387 - bedrock - DEBUG - [generate_titan_embedding] - Completed -  The Embedding vectore generation
+2025-01-26 11:44:51,389 - bedrock - DEBUG - [generate_titan_embedding] - Completed -  Done with vector Extraction
+2025-01-26 11:44:51,870 - bedrock - DEBUG - [generate_titan_embedding] - Started - The Embedding vectore generation
+2025-01-26 11:44:52,464 - bedrock - DEBUG - [generate_titan_embedding] - Completed -  The Embedding vectore generation
+2025-01-26 11:44:52,466 - bedrock - DEBUG - [generate_titan_embedding] - Completed -  Done with vector Extraction
+2025-01-26 11:44:59,263 - bedrock - DEBUG - [generate_titan_embedding] - Started - The Embedding vectore generation
+2025-01-26 11:44:59,837 - bedrock - DEBUG - [generate_titan_embedding] - Completed -  The Embedding vectore generation
+2025-01-26 11:44:59,839 - bedrock - DEBUG - [generate_titan_embedding] - Completed -  Done with vector Extraction
+2025-01-26 11:45:00,949 - bedrock - DEBUG - [generate_titan_embedding] - Started - The Embedding vectore generation
+2025-01-26 11:45:01,480 - bedrock - DEBUG - [generate_titan_embedding] - Completed -  The Embedding vectore generation
+2025-01-26 11:45:01,482 - bedrock - DEBUG - [generate_titan_embedding] - Completed -  Done with vector Extraction
+2025-01-26 11:45:02,803 - bedrock - DEBUG - [generate_titan_embedding] - Started - The Embedding vectore generation
+2025-01-26 11:45:03,243 - bedrock - DEBUG - [generate_titan_embedding] - Completed -  The Embedding vectore generation
+2025-01-26 11:45:03,245 - bedrock - DEBUG - [generate_titan_embedding] - Completed -  Done with vector Extraction
+2025-01-26 11:45:03,667 - bedrock - DEBUG - [upsert_to_pinecone] - Completed - the Upload to pinecone databse
+2025-01-26 11:45:03,671 - bedrock - DEBUG - [query_pinecone] - Started -  Embedding generation 
+2025-01-26 11:45:03,671 - bedrock - DEBUG - [generate_titan_embedding] - Started - The Embedding vectore generation
+2025-01-26 11:45:04,165 - bedrock - DEBUG - [generate_titan_embedding] - Completed -  The Embedding vectore generation
+2025-01-26 11:45:04,166 - bedrock - DEBUG - [generate_titan_embedding] - Completed -  Done with vector Extraction
+2025-01-26 11:45:04,166 - bedrock - DEBUG - [query_pinecone] - Completed -  Embedding generation 
+2025-01-26 11:45:04,166 - bedrock - DEBUG - [query_pinecone] - Started - Pinecone Query
+2025-01-26 11:45:04,574 - bedrock - DEBUG - [query_pinecone] - Completed - Pinecone Query
+2025-01-26 11:45:04,574 - bedrock - DEBUG - [query_pinecone] - Returned the results
+2025-01-26 11:45:31,686 - bedrock - DEBUG - [configure_get_client] - Started - Creating the aws client
+2025-01-26 11:45:31,748 - bedrock - DEBUG - [configure_get_client] - Completed - Creating the aws client
+2025-01-26 11:45:31,748 - bedrock - DEBUG - [query_pinecone] - Started -  Embedding generation 
+2025-01-26 11:45:31,748 - bedrock - DEBUG - [generate_titan_embedding] - Started - The Embedding vectore generation
+2025-01-26 11:45:33,900 - bedrock - DEBUG - [generate_titan_embedding] - Completed -  The Embedding vectore generation
+2025-01-26 11:45:33,902 - bedrock - DEBUG - [generate_titan_embedding] - Completed -  Done with vector Extraction
+2025-01-26 11:45:33,902 - bedrock - DEBUG - [query_pinecone] - Completed -  Embedding generation 
+2025-01-26 11:45:33,902 - bedrock - DEBUG - [query_pinecone] - Started - Pinecone Query
+2025-01-26 11:45:37,722 - bedrock - DEBUG - [query_pinecone] - Completed - Pinecone Query
+2025-01-26 11:45:37,722 - bedrock - DEBUG - [query_pinecone] - Returned the results
+2025-01-26 11:46:48,290 - bedrock - DEBUG - [configure_get_client] - Started - Creating the aws client
+2025-01-26 11:46:48,340 - bedrock - DEBUG - [configure_get_client] - Completed - Creating the aws client
+2025-01-26 11:46:48,340 - bedrock - DEBUG - [upsert_to_pinecone] - Started - the Upload to pinecone databse
+2025-01-26 11:46:48,340 - bedrock - DEBUG - [generate_titan_embedding] - Started - The Embedding vectore generation
+2025-01-26 11:46:52,102 - bedrock - DEBUG - [generate_titan_embedding] - Completed -  The Embedding vectore generation
+2025-01-26 11:46:52,104 - bedrock - DEBUG - [generate_titan_embedding] - Completed -  Done with vector Extraction
+2025-01-26 11:46:55,047 - bedrock - DEBUG - [generate_titan_embedding] - Started - The Embedding vectore generation
+2025-01-26 11:46:55,599 - bedrock - DEBUG - [generate_titan_embedding] - Completed -  The Embedding vectore generation
+2025-01-26 11:46:55,600 - bedrock - DEBUG - [generate_titan_embedding] - Completed -  Done with vector Extraction
+2025-01-26 11:46:56,060 - bedrock - DEBUG - [generate_titan_embedding] - Started - The Embedding vectore generation
+2025-01-26 11:46:56,792 - bedrock - DEBUG - [generate_titan_embedding] - Completed -  The Embedding vectore generation
+2025-01-26 11:46:56,793 - bedrock - DEBUG - [generate_titan_embedding] - Completed -  Done with vector Extraction
+2025-01-26 11:46:57,300 - bedrock - DEBUG - [generate_titan_embedding] - Started - The Embedding vectore generation
+2025-01-26 11:46:58,048 - bedrock - DEBUG - [generate_titan_embedding] - Completed -  The Embedding vectore generation
+2025-01-26 11:46:58,049 - bedrock - DEBUG - [generate_titan_embedding] - Completed -  Done with vector Extraction
+2025-01-26 11:46:58,728 - bedrock - DEBUG - [generate_titan_embedding] - Started - The Embedding vectore generation
+2025-01-26 11:47:00,153 - bedrock - DEBUG - [generate_titan_embedding] - Completed -  The Embedding vectore generation
+2025-01-26 11:47:00,155 - bedrock - DEBUG - [generate_titan_embedding] - Completed -  Done with vector Extraction
+2025-01-26 11:47:00,675 - bedrock - DEBUG - [generate_titan_embedding] - Started - The Embedding vectore generation
+2025-01-26 11:47:01,700 - bedrock - DEBUG - [generate_titan_embedding] - Completed -  The Embedding vectore generation
+2025-01-26 11:47:01,701 - bedrock - DEBUG - [generate_titan_embedding] - Completed -  Done with vector Extraction
+2025-01-26 11:47:02,466 - bedrock - DEBUG - [upsert_to_pinecone] - Completed - the Upload to pinecone databse
