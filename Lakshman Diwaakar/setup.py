@@ -72,7 +72,7 @@ def setup_base():
     client.upsert_to_pinecone(data, index, bedrock_client)
     logging.debug("Completed - Upadte the vectors to pinecone")
 
-    return index, bedrock_client, client
+    return index, bedrock_client, client, data
 
 def setup_get_config():
     """
@@ -106,7 +106,11 @@ def setup_get_config():
     logger.debug("Started - LLM configuration for aws")
     bedrock_client_llm = client.configure_get_llm_client()
 
-    return index, bedrock_client, bedrock_client_llm, client
+    data = preprocess.generate_embedding_data(path = "data/mutula_fund.csv", generation_count=-1)
+    logging.debug("Completed - Data Preprocessing")
+
+
+    return index, bedrock_client, bedrock_client_llm, client, data
 
 if __name__=="__main__":
     setup_base()

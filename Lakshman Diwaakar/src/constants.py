@@ -38,13 +38,13 @@ def extract_details_with_llm(user_query, bedrock_client_llm):
             "maxTokenCount": 60,
             "stopSequences": [],
             "temperature": 0.7,
-            "topP": 0.8
+            "topP": 0.9
         }
     }
     body = json.dumps(payload)
 
     # AWS Bedrock Model Invocation
-    model_id = "amazon.titan-text-lite-v1"
+    model_id = "amazon.titan-text-express-v1"
     response = bedrock_client_llm.invoke_model(
         modelId=model_id,
         contentType="application/json",
@@ -71,21 +71,34 @@ def process_rag_response(user_query, rag_response, bedrock_client_llm):
         str: Insights and final verdict based on user input and RAG output.
     """
     # Prepare the LLM prompt for meaningful insights
+
+
+
+    # llm_prompt = f"""
+    # Based on the following user query and RAG model response, provide meaningful insights and perform mathematical calulations if specified in the user_query:
+    
+    # User Query: "{user_query}"
+    
+    # RAG Model Response:
+    # {rag_response}
+    
+    # Analyze the data and include the following in your insights:
+    # 1. Changes in percentage allocation for specified funds or instruments (if applicable).
+    # 2. Recommended funds or instruments based on their consistency across funds.
+    # 3. Overall returns or performance of the funds and instruments.
+    
+    # Provide a clear final verdict for the user query.
+    # """
+
     llm_prompt = f"""
-    Based on the following user query and RAG model response, provide meaningful insights:
-    
-    User Query: "{user_query}"
-    
-    RAG Model Response:
-    {rag_response}
-    
-    Analyze the data and include the following in your insights:
-    1. Changes in percentage allocation for specified funds or instruments (if applicable).
-    2. Recommended funds or instruments based on their consistency across funds.
-    3. Overall returns or performance of the funds and instruments.
-    
-    Provide a clear final verdict for the user query.
+    You are given a user’s query and a RAG response. Based on the user’s query, extract the relevant 
+    data from the RAG response and perform any necessary mathematical work (like subtraction, addition, etc.) if required to answer the query.
+    User_Query:{user_query}
+    RAG_Response:{rag_response}
     """
+
+
+
     # Build payload for Bedrock API
     payload = {
         "inputText": llm_prompt,
@@ -99,7 +112,7 @@ def process_rag_response(user_query, rag_response, bedrock_client_llm):
     body = json.dumps(payload)
 
     # AWS Bedrock Model Invocation
-    model_id = "amazon.titan-text-lite-v1"
+    model_id = "amazon.titan-text-express-v1"
     response = bedrock_client_llm.invoke_model(
         modelId=model_id,
         contentType="application/json",
@@ -110,3 +123,5 @@ def process_rag_response(user_query, rag_response, bedrock_client_llm):
     parsed_response = json.loads(item)
     output = parsed_response["results"][0]["outputText"]
     return output
+
+

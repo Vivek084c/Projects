@@ -359,3 +359,194 @@
 2025-01-26 15:39:19,405 - bedrock - DEBUG - [configure_get_client] - Started - Creating the aws client
 2025-01-26 15:39:19,468 - bedrock - DEBUG - [configure_get_client] - Completed - Creating the aws client
 2025-01-26 15:39:19,469 - bedrock - DEBUG - [configure_get_llm_client] - Started - Creating the aws client
+2025-01-26 15:46:48,018 - bedrock - DEBUG - [configure_get_client] - Started - Creating the aws client
+2025-01-26 15:46:48,109 - bedrock - DEBUG - [configure_get_client] - Completed - Creating the aws client
+2025-01-26 15:46:48,109 - bedrock - DEBUG - [configure_get_llm_client] - Started - Creating the aws client
+2025-01-26 15:55:21,518 - bedrock - DEBUG - [configure_get_client] - Started - Creating the aws client
+2025-01-26 15:55:21,595 - bedrock - DEBUG - [configure_get_client] - Completed - Creating the aws client
+2025-01-26 15:55:21,595 - bedrock - DEBUG - [configure_get_llm_client] - Started - Creating the aws client
+2025-01-26 15:56:22,163 - bedrock - DEBUG - [configure_get_client] - Started - Creating the aws client
+2025-01-26 15:56:22,235 - bedrock - DEBUG - [configure_get_client] - Completed - Creating the aws client
+2025-01-26 15:56:22,235 - bedrock - DEBUG - [configure_get_llm_client] - Started - Creating the aws client
+2025-01-26 15:56:46,870 - bedrock - DEBUG - [configure_get_client] - Started - Creating the aws client
+2025-01-26 15:56:46,930 - bedrock - DEBUG - [configure_get_client] - Completed - Creating the aws client
+2025-01-26 15:56:46,931 - bedrock - DEBUG - [configure_get_llm_client] - Started - Creating the aws client
+2025-01-26 15:57:03,750 - bedrock - DEBUG - [configure_get_client] - Started - Creating the aws client
+2025-01-26 15:57:03,808 - bedrock - DEBUG - [configure_get_client] - Completed - Creating the aws client
+2025-01-26 15:57:03,808 - bedrock - DEBUG - [configure_get_llm_client] - Started - Creating the aws client
+2025-01-26 15:59:09,161 - bedrock - DEBUG - [configure_get_client] - Started - Creating the aws client
+2025-01-26 15:59:09,223 - bedrock - DEBUG - [configure_get_client] - Completed - Creating the aws client
+2025-01-26 15:59:09,224 - bedrock - DEBUG - [configure_get_llm_client] - Started - Creating the aws client
+2025-01-26 16:00:12,912 - bedrock - DEBUG - [configure_get_client] - Started - Creating the aws client
+2025-01-26 16:00:12,989 - bedrock - DEBUG - [configure_get_client] - Completed - Creating the aws client
+2025-01-26 16:00:12,989 - bedrock - DEBUG - [configure_get_llm_client] - Started - Creating the aws client
+2025-01-26 16:00:15,882 - bedrock - DEBUG - [query_pinecone] - Started -  Embedding generation 
+2025-01-26 16:00:15,882 - bedrock - DEBUG - [generate_titan_embedding] - Started - The Embedding vectore generation
+2025-01-26 16:00:17,227 - bedrock - DEBUG - [generate_titan_embedding] - Completed -  The Embedding vectore generation
+2025-01-26 16:00:17,229 - bedrock - DEBUG - [generate_titan_embedding] - Completed -  Done with vector Extraction
+2025-01-26 16:00:17,229 - bedrock - DEBUG - [query_pinecone] - Completed -  Embedding generation 
+2025-01-26 16:00:17,229 - bedrock - DEBUG - [query_pinecone] - Started - Pinecone Query
+2025-01-26 16:00:19,588 - bedrock - DEBUG - [query_pinecone] - Completed - Pinecone Query
+2025-01-26 16:00:19,589 - bedrock - DEBUG - [query_pinecone] - Returned the results
+2025-01-26 16:01:48,875 - bedrock - DEBUG - [configure_get_client] - Started - Creating the aws client
+2025-01-26 16:01:48,930 - bedrock - DEBUG - [configure_get_client] - Completed - Creating the aws client
+2025-01-26 16:01:48,930 - bedrock - DEBUG - [configure_get_llm_client] - Started - Creating the aws client
+2025-01-26 16:01:53,565 - bedrock - DEBUG - [query_pinecone] - Started -  Embedding generation 
+2025-01-26 16:01:53,565 - bedrock - DEBUG - [generate_titan_embedding] - Started - The Embedding vectore generation
+2025-01-26 16:01:55,922 - bedrock - DEBUG - [generate_titan_embedding] - Completed -  The Embedding vectore generation
+2025-01-26 16:01:55,924 - bedrock - DEBUG - [generate_titan_embedding] - Completed -  Done with vector Extraction
+2025-01-26 16:01:55,924 - bedrock - DEBUG - [query_pinecone] - Completed -  Embedding generation 
+2025-01-26 16:01:55,924 - bedrock - DEBUG - [query_pinecone] - Started - Pinecone Query
+2025-01-26 16:01:58,002 - bedrock - DEBUG - [query_pinecone] - Completed - Pinecone Query
+2025-01-26 16:01:58,002 - bedrock - DEBUG - [query_pinecone] - Returned the results
+2025-01-26 16:02:19,643 - bedrock - DEBUG - [configure_get_client] - Started - Creating the aws client
+2025-01-26 16:02:19,703 - bedrock - DEBUG - [configure_get_client] - Completed - Creating the aws client
+2025-01-26 16:02:19,703 - bedrock - DEBUG - [configure_get_llm_client] - Started - Creating the aws client
+2025-01-26 16:02:20,981 - bedrock - DEBUG - [query_pinecone] - Started -  Embedding generation 
+2025-01-26 16:02:20,982 - bedrock - DEBUG - [generate_titan_embedding] - Started - The Embedding vectore generation
+2025-01-26 16:02:57,685 - bedrock - DEBUG - [configure_get_client] - Started - Creating the aws client
+2025-01-26 16:02:57,743 - bedrock - DEBUG - [configure_get_client] - Completed - Creating the aws client
+2025-01-26 16:02:57,744 - bedrock - DEBUG - [configure_get_llm_client] - Started - Creating the aws client
+2025-01-26 16:03:00,028 - bedrock - DEBUG - [query_pinecone] - Started -  Embedding generation 
+2025-01-26 16:03:00,029 - bedrock - DEBUG - [generate_titan_embedding] - Started - The Embedding vectore generation
+2025-01-26 16:03:01,446 - bedrock - DEBUG - [generate_titan_embedding] - Completed -  The Embedding vectore generation
+2025-01-26 16:03:01,448 - bedrock - DEBUG - [generate_titan_embedding] - Completed -  Done with vector Extraction
+2025-01-26 16:03:01,448 - bedrock - DEBUG - [query_pinecone] - Completed -  Embedding generation 
+2025-01-26 16:03:01,448 - bedrock - DEBUG - [query_pinecone] - Started - Pinecone Query
+2025-01-26 16:03:02,774 - bedrock - DEBUG - [query_pinecone] - Completed - Pinecone Query
+2025-01-26 16:03:02,774 - bedrock - DEBUG - [query_pinecone] - Returned the results
+2025-01-26 16:03:20,705 - bedrock - DEBUG - [configure_get_client] - Started - Creating the aws client
+2025-01-26 16:03:20,763 - bedrock - DEBUG - [configure_get_client] - Completed - Creating the aws client
+2025-01-26 16:03:20,764 - bedrock - DEBUG - [configure_get_llm_client] - Started - Creating the aws client
+2025-01-26 16:03:24,337 - bedrock - DEBUG - [query_pinecone] - Started -  Embedding generation 
+2025-01-26 16:03:24,338 - bedrock - DEBUG - [generate_titan_embedding] - Started - The Embedding vectore generation
+2025-01-26 16:03:25,610 - bedrock - DEBUG - [generate_titan_embedding] - Completed -  The Embedding vectore generation
+2025-01-26 16:03:25,611 - bedrock - DEBUG - [generate_titan_embedding] - Completed -  Done with vector Extraction
+2025-01-26 16:03:25,612 - bedrock - DEBUG - [query_pinecone] - Completed -  Embedding generation 
+2025-01-26 16:03:25,612 - bedrock - DEBUG - [query_pinecone] - Started - Pinecone Query
+2025-01-26 16:03:26,925 - bedrock - DEBUG - [query_pinecone] - Completed - Pinecone Query
+2025-01-26 16:03:26,926 - bedrock - DEBUG - [query_pinecone] - Returned the results
+2025-01-26 16:04:47,983 - bedrock - DEBUG - [configure_get_client] - Started - Creating the aws client
+2025-01-26 16:04:48,042 - bedrock - DEBUG - [configure_get_client] - Completed - Creating the aws client
+2025-01-26 16:04:48,043 - bedrock - DEBUG - [configure_get_llm_client] - Started - Creating the aws client
+2025-01-26 16:04:51,049 - bedrock - DEBUG - [query_pinecone] - Started -  Embedding generation 
+2025-01-26 16:04:51,050 - bedrock - DEBUG - [generate_titan_embedding] - Started - The Embedding vectore generation
+2025-01-26 16:04:52,424 - bedrock - DEBUG - [generate_titan_embedding] - Completed -  The Embedding vectore generation
+2025-01-26 16:04:52,426 - bedrock - DEBUG - [generate_titan_embedding] - Completed -  Done with vector Extraction
+2025-01-26 16:04:52,426 - bedrock - DEBUG - [query_pinecone] - Completed -  Embedding generation 
+2025-01-26 16:04:52,426 - bedrock - DEBUG - [query_pinecone] - Started - Pinecone Query
+2025-01-26 16:04:53,787 - bedrock - DEBUG - [query_pinecone] - Completed - Pinecone Query
+2025-01-26 16:04:53,787 - bedrock - DEBUG - [query_pinecone] - Returned the results
+2025-01-26 16:08:17,288 - bedrock - DEBUG - [configure_get_client] - Started - Creating the aws client
+2025-01-26 16:08:17,349 - bedrock - DEBUG - [configure_get_client] - Completed - Creating the aws client
+2025-01-26 16:08:17,349 - bedrock - DEBUG - [configure_get_llm_client] - Started - Creating the aws client
+2025-01-26 16:10:27,616 - bedrock - DEBUG - [configure_get_client] - Started - Creating the aws client
+2025-01-26 16:10:27,674 - bedrock - DEBUG - [configure_get_client] - Completed - Creating the aws client
+2025-01-26 16:10:27,675 - bedrock - DEBUG - [configure_get_llm_client] - Started - Creating the aws client
+2025-01-26 16:10:40,512 - bedrock - DEBUG - [configure_get_client] - Started - Creating the aws client
+2025-01-26 16:10:40,574 - bedrock - DEBUG - [configure_get_client] - Completed - Creating the aws client
+2025-01-26 16:10:40,574 - bedrock - DEBUG - [configure_get_llm_client] - Started - Creating the aws client
+2025-01-26 16:10:57,992 - bedrock - DEBUG - [configure_get_client] - Started - Creating the aws client
+2025-01-26 16:10:58,050 - bedrock - DEBUG - [configure_get_client] - Completed - Creating the aws client
+2025-01-26 16:10:58,051 - bedrock - DEBUG - [configure_get_llm_client] - Started - Creating the aws client
+2025-01-26 16:12:18,010 - bedrock - DEBUG - [configure_get_client] - Started - Creating the aws client
+2025-01-26 16:12:18,089 - bedrock - DEBUG - [configure_get_client] - Completed - Creating the aws client
+2025-01-26 16:12:18,089 - bedrock - DEBUG - [configure_get_llm_client] - Started - Creating the aws client
+2025-01-26 16:12:21,132 - bedrock - DEBUG - [query_pinecone] - Started -  Embedding generation 
+2025-01-26 16:12:21,133 - bedrock - DEBUG - [generate_titan_embedding] - Started - The Embedding vectore generation
+2025-01-26 16:12:22,510 - bedrock - DEBUG - [generate_titan_embedding] - Completed -  The Embedding vectore generation
+2025-01-26 16:12:22,510 - bedrock - DEBUG - [generate_titan_embedding] - Completed -  Done with vector Extraction
+2025-01-26 16:12:22,511 - bedrock - DEBUG - [query_pinecone] - Completed -  Embedding generation 
+2025-01-26 16:12:22,511 - bedrock - DEBUG - [query_pinecone] - Started - Pinecone Query
+2025-01-26 16:12:24,719 - bedrock - DEBUG - [query_pinecone] - Completed - Pinecone Query
+2025-01-26 16:12:24,719 - bedrock - DEBUG - [query_pinecone] - Returned the results
+2025-01-26 16:12:39,493 - bedrock - DEBUG - [configure_get_client] - Started - Creating the aws client
+2025-01-26 16:12:39,565 - bedrock - DEBUG - [configure_get_client] - Completed - Creating the aws client
+2025-01-26 16:12:39,565 - bedrock - DEBUG - [configure_get_llm_client] - Started - Creating the aws client
+2025-01-26 16:12:42,859 - bedrock - DEBUG - [query_pinecone] - Started -  Embedding generation 
+2025-01-26 16:12:42,859 - bedrock - DEBUG - [generate_titan_embedding] - Started - The Embedding vectore generation
+2025-01-26 16:12:44,225 - bedrock - DEBUG - [generate_titan_embedding] - Completed -  The Embedding vectore generation
+2025-01-26 16:12:44,227 - bedrock - DEBUG - [generate_titan_embedding] - Completed -  Done with vector Extraction
+2025-01-26 16:12:44,227 - bedrock - DEBUG - [query_pinecone] - Completed -  Embedding generation 
+2025-01-26 16:12:44,227 - bedrock - DEBUG - [query_pinecone] - Started - Pinecone Query
+2025-01-26 16:12:45,566 - bedrock - DEBUG - [query_pinecone] - Completed - Pinecone Query
+2025-01-26 16:12:45,566 - bedrock - DEBUG - [query_pinecone] - Returned the results
+2025-01-26 16:13:33,911 - bedrock - DEBUG - [configure_get_client] - Started - Creating the aws client
+2025-01-26 16:13:33,967 - bedrock - DEBUG - [configure_get_client] - Completed - Creating the aws client
+2025-01-26 16:13:33,967 - bedrock - DEBUG - [configure_get_llm_client] - Started - Creating the aws client
+2025-01-26 16:13:36,453 - bedrock - DEBUG - [query_pinecone] - Started -  Embedding generation 
+2025-01-26 16:13:36,454 - bedrock - DEBUG - [generate_titan_embedding] - Started - The Embedding vectore generation
+2025-01-26 16:13:37,952 - bedrock - DEBUG - [generate_titan_embedding] - Completed -  The Embedding vectore generation
+2025-01-26 16:13:37,954 - bedrock - DEBUG - [generate_titan_embedding] - Completed -  Done with vector Extraction
+2025-01-26 16:13:37,954 - bedrock - DEBUG - [query_pinecone] - Completed -  Embedding generation 
+2025-01-26 16:13:37,954 - bedrock - DEBUG - [query_pinecone] - Started - Pinecone Query
+2025-01-26 16:13:39,245 - bedrock - DEBUG - [query_pinecone] - Completed - Pinecone Query
+2025-01-26 16:13:39,245 - bedrock - DEBUG - [query_pinecone] - Returned the results
+2025-01-26 16:14:01,550 - bedrock - DEBUG - [configure_get_client] - Started - Creating the aws client
+2025-01-26 16:14:01,606 - bedrock - DEBUG - [configure_get_client] - Completed - Creating the aws client
+2025-01-26 16:14:01,606 - bedrock - DEBUG - [configure_get_llm_client] - Started - Creating the aws client
+2025-01-26 16:14:06,386 - bedrock - DEBUG - [query_pinecone] - Started -  Embedding generation 
+2025-01-26 16:14:06,387 - bedrock - DEBUG - [generate_titan_embedding] - Started - The Embedding vectore generation
+2025-01-26 16:14:07,703 - bedrock - DEBUG - [generate_titan_embedding] - Completed -  The Embedding vectore generation
+2025-01-26 16:14:07,704 - bedrock - DEBUG - [generate_titan_embedding] - Completed -  Done with vector Extraction
+2025-01-26 16:14:07,704 - bedrock - DEBUG - [query_pinecone] - Completed -  Embedding generation 
+2025-01-26 16:14:07,704 - bedrock - DEBUG - [query_pinecone] - Started - Pinecone Query
+2025-01-26 16:14:09,006 - bedrock - DEBUG - [query_pinecone] - Completed - Pinecone Query
+2025-01-26 16:14:09,006 - bedrock - DEBUG - [query_pinecone] - Returned the results
+2025-01-26 16:15:21,245 - bedrock - DEBUG - [configure_get_client] - Started - Creating the aws client
+2025-01-26 16:15:21,309 - bedrock - DEBUG - [configure_get_client] - Completed - Creating the aws client
+2025-01-26 16:15:21,309 - bedrock - DEBUG - [configure_get_llm_client] - Started - Creating the aws client
+2025-01-26 16:15:22,670 - bedrock - DEBUG - [query_pinecone] - Started -  Embedding generation 
+2025-01-26 16:15:22,670 - bedrock - DEBUG - [generate_titan_embedding] - Started - The Embedding vectore generation
+2025-01-26 16:15:46,096 - bedrock - DEBUG - [configure_get_client] - Started - Creating the aws client
+2025-01-26 16:15:46,154 - bedrock - DEBUG - [configure_get_client] - Completed - Creating the aws client
+2025-01-26 16:15:46,154 - bedrock - DEBUG - [configure_get_llm_client] - Started - Creating the aws client
+2025-01-26 16:15:49,918 - bedrock - DEBUG - [query_pinecone] - Started -  Embedding generation 
+2025-01-26 16:15:49,919 - bedrock - DEBUG - [generate_titan_embedding] - Started - The Embedding vectore generation
+2025-01-26 16:15:51,014 - bedrock - DEBUG - [generate_titan_embedding] - Completed -  The Embedding vectore generation
+2025-01-26 16:15:51,260 - bedrock - DEBUG - [generate_titan_embedding] - Completed -  Done with vector Extraction
+2025-01-26 16:15:51,261 - bedrock - DEBUG - [query_pinecone] - Completed -  Embedding generation 
+2025-01-26 16:15:51,261 - bedrock - DEBUG - [query_pinecone] - Started - Pinecone Query
+2025-01-26 16:15:52,591 - bedrock - DEBUG - [query_pinecone] - Completed - Pinecone Query
+2025-01-26 16:15:52,591 - bedrock - DEBUG - [query_pinecone] - Returned the results
+2025-01-26 16:20:02,476 - bedrock - DEBUG - [configure_get_client] - Started - Creating the aws client
+2025-01-26 16:20:02,539 - bedrock - DEBUG - [configure_get_client] - Completed - Creating the aws client
+2025-01-26 16:20:02,539 - bedrock - DEBUG - [configure_get_llm_client] - Started - Creating the aws client
+2025-01-26 16:20:04,795 - bedrock - DEBUG - [query_pinecone] - Started -  Embedding generation 
+2025-01-26 16:20:04,795 - bedrock - DEBUG - [generate_titan_embedding] - Started - The Embedding vectore generation
+2025-01-26 16:20:06,179 - bedrock - DEBUG - [generate_titan_embedding] - Completed -  The Embedding vectore generation
+2025-01-26 16:20:06,180 - bedrock - DEBUG - [generate_titan_embedding] - Completed -  Done with vector Extraction
+2025-01-26 16:20:06,181 - bedrock - DEBUG - [query_pinecone] - Completed -  Embedding generation 
+2025-01-26 16:20:06,181 - bedrock - DEBUG - [query_pinecone] - Started - Pinecone Query
+2025-01-26 16:20:07,551 - bedrock - DEBUG - [query_pinecone] - Completed - Pinecone Query
+2025-01-26 16:20:07,551 - bedrock - DEBUG - [query_pinecone] - Returned the results
+2025-01-26 16:26:12,747 - bedrock - DEBUG - [configure_get_client] - Started - Creating the aws client
+2025-01-26 16:26:12,823 - bedrock - DEBUG - [configure_get_client] - Completed - Creating the aws client
+2025-01-26 16:26:12,823 - bedrock - DEBUG - [configure_get_llm_client] - Started - Creating the aws client
+2025-01-26 16:26:14,302 - bedrock - DEBUG - [query_pinecone] - Started -  Embedding generation 
+2025-01-26 16:26:14,303 - bedrock - DEBUG - [generate_titan_embedding] - Started - The Embedding vectore generation
+2025-01-26 16:26:25,981 - bedrock - DEBUG - [configure_get_client] - Started - Creating the aws client
+2025-01-26 16:26:26,042 - bedrock - DEBUG - [configure_get_client] - Completed - Creating the aws client
+2025-01-26 16:26:26,042 - bedrock - DEBUG - [configure_get_llm_client] - Started - Creating the aws client
+2025-01-26 16:26:28,009 - bedrock - DEBUG - [query_pinecone] - Started -  Embedding generation 
+2025-01-26 16:26:28,009 - bedrock - DEBUG - [generate_titan_embedding] - Started - The Embedding vectore generation
+2025-01-26 16:26:29,271 - bedrock - DEBUG - [generate_titan_embedding] - Completed -  The Embedding vectore generation
+2025-01-26 16:26:29,272 - bedrock - DEBUG - [generate_titan_embedding] - Completed -  Done with vector Extraction
+2025-01-26 16:26:29,272 - bedrock - DEBUG - [query_pinecone] - Completed -  Embedding generation 
+2025-01-26 16:26:29,272 - bedrock - DEBUG - [query_pinecone] - Started - Pinecone Query
+2025-01-26 16:26:30,675 - bedrock - DEBUG - [query_pinecone] - Completed - Pinecone Query
+2025-01-26 16:26:30,675 - bedrock - DEBUG - [query_pinecone] - Returned the results
+2025-01-26 16:27:21,631 - bedrock - DEBUG - [configure_get_client] - Started - Creating the aws client
+2025-01-26 16:27:21,714 - bedrock - DEBUG - [configure_get_client] - Completed - Creating the aws client
+2025-01-26 16:27:21,714 - bedrock - DEBUG - [configure_get_llm_client] - Started - Creating the aws client
+2025-01-26 16:27:25,867 - bedrock - DEBUG - [query_pinecone] - Started -  Embedding generation 
+2025-01-26 16:27:25,868 - bedrock - DEBUG - [generate_titan_embedding] - Started - The Embedding vectore generation
+2025-01-26 16:27:27,152 - bedrock - DEBUG - [generate_titan_embedding] - Completed -  The Embedding vectore generation
+2025-01-26 16:27:27,153 - bedrock - DEBUG - [generate_titan_embedding] - Completed -  Done with vector Extraction
+2025-01-26 16:27:27,153 - bedrock - DEBUG - [query_pinecone] - Completed -  Embedding generation 
+2025-01-26 16:27:27,154 - bedrock - DEBUG - [query_pinecone] - Started - Pinecone Query
+2025-01-26 16:27:28,490 - bedrock - DEBUG - [query_pinecone] - Completed - Pinecone Query
+2025-01-26 16:27:28,490 - bedrock - DEBUG - [query_pinecone] - Returned the results
+2025-01-26 16:29:39,464 - bedrock - DEBUG - [configure_get_client] - Started - Creating the aws client
+2025-01-26 16:29:39,525 - bedrock - DEBUG - [configure_get_client] - Completed - Creating the aws client
+2025-01-26 16:29:39,525 - bedrock - DEBUG - [configure_get_llm_client] - Started - Creating the aws client

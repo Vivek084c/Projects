@@ -12,11 +12,11 @@ class ConnectionManager:
 
     def initialize_connections(self):
         print("Initializing connections...")
-        self.index, self.bedrock_client_embedding, self.bedrock_client_llm, self.client = setup_get_config()
+        self.index, self.bedrock_client_embedding, self.bedrock_client_llm, self.client, self.data= setup_get_config()
         print("Connections initialized.")
 
     def get_connections(self):
-        return self.index, self.bedrock_client_embedding, self.bedrock_client_llm, self.client
+        return self.index, self.bedrock_client_embedding, self.bedrock_client_llm, self.client, self.data
 
 # Singleton access method
 def get_connection_manager():

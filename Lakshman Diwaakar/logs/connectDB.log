@@ -96,3 +96,84 @@
 2025-01-26 15:39:14,736 - connectDB - DEBUG - Created the Pinecone Instance
 2025-01-26 15:39:16,042 - connectDB - DEBUG - Fetched the existing Index
 2025-01-26 15:39:18,743 - connectDB - WARNING - Index 'lakshmandiwakar' already exists. Proceeding without creating it.
+2025-01-26 15:46:43,873 - connectDB - DEBUG - Created the Pinecone Instance
+2025-01-26 15:46:45,112 - connectDB - DEBUG - Fetched the existing Index
+2025-01-26 15:46:47,424 - connectDB - WARNING - Index 'lakshmandiwakar' already exists. Proceeding without creating it.
+2025-01-26 15:55:17,257 - connectDB - DEBUG - Created the Pinecone Instance
+2025-01-26 15:55:18,414 - connectDB - DEBUG - Fetched the existing Index
+2025-01-26 15:55:20,445 - connectDB - WARNING - Index 'lakshmandiwakar' already exists. Proceeding without creating it.
+2025-01-26 15:56:17,463 - connectDB - DEBUG - Created the Pinecone Instance
+2025-01-26 15:56:18,491 - connectDB - DEBUG - Fetched the existing Index
+2025-01-26 15:56:21,048 - connectDB - WARNING - Index 'lakshmandiwakar' already exists. Proceeding without creating it.
+2025-01-26 15:56:42,570 - connectDB - DEBUG - Created the Pinecone Instance
+2025-01-26 15:56:43,586 - connectDB - DEBUG - Fetched the existing Index
+2025-01-26 15:56:46,309 - connectDB - WARNING - Index 'lakshmandiwakar' already exists. Proceeding without creating it.
+2025-01-26 15:56:59,684 - connectDB - DEBUG - Created the Pinecone Instance
+2025-01-26 15:57:00,660 - connectDB - DEBUG - Fetched the existing Index
+2025-01-26 15:57:03,227 - connectDB - WARNING - Index 'lakshmandiwakar' already exists. Proceeding without creating it.
+2025-01-26 15:59:04,638 - connectDB - DEBUG - Created the Pinecone Instance
+2025-01-26 15:59:05,654 - connectDB - DEBUG - Fetched the existing Index
+2025-01-26 15:59:08,352 - connectDB - WARNING - Index 'lakshmandiwakar' already exists. Proceeding without creating it.
+2025-01-26 16:00:08,615 - connectDB - DEBUG - Created the Pinecone Instance
+2025-01-26 16:00:09,543 - connectDB - DEBUG - Fetched the existing Index
+2025-01-26 16:00:11,852 - connectDB - WARNING - Index 'lakshmandiwakar' already exists. Proceeding without creating it.
+2025-01-26 16:01:44,460 - connectDB - DEBUG - Created the Pinecone Instance
+2025-01-26 16:01:45,540 - connectDB - DEBUG - Fetched the existing Index
+2025-01-26 16:01:48,434 - connectDB - WARNING - Index 'lakshmandiwakar' already exists. Proceeding without creating it.
+2025-01-26 16:02:15,782 - connectDB - DEBUG - Created the Pinecone Instance
+2025-01-26 16:02:17,288 - connectDB - DEBUG - Fetched the existing Index
+2025-01-26 16:02:19,285 - connectDB - WARNING - Index 'lakshmandiwakar' already exists. Proceeding without creating it.
+2025-01-26 16:02:53,317 - connectDB - DEBUG - Created the Pinecone Instance
+2025-01-26 16:02:54,464 - connectDB - DEBUG - Fetched the existing Index
+2025-01-26 16:02:56,530 - connectDB - WARNING - Index 'lakshmandiwakar' already exists. Proceeding without creating it.
+2025-01-26 16:03:17,014 - connectDB - DEBUG - Created the Pinecone Instance
+2025-01-26 16:03:18,007 - connectDB - DEBUG - Fetched the existing Index
+2025-01-26 16:03:20,270 - connectDB - WARNING - Index 'lakshmandiwakar' already exists. Proceeding without creating it.
+2025-01-26 16:04:43,071 - connectDB - DEBUG - Created the Pinecone Instance
+2025-01-26 16:04:44,366 - connectDB - DEBUG - Fetched the existing Index
+2025-01-26 16:04:47,201 - connectDB - WARNING - Index 'lakshmandiwakar' already exists. Proceeding without creating it.
+2025-01-26 16:08:13,576 - connectDB - DEBUG - Created the Pinecone Instance
+2025-01-26 16:08:14,708 - connectDB - DEBUG - Fetched the existing Index
+2025-01-26 16:08:16,716 - connectDB - WARNING - Index 'lakshmandiwakar' already exists. Proceeding without creating it.
+2025-01-26 16:10:22,829 - connectDB - DEBUG - Created the Pinecone Instance
+2025-01-26 16:10:23,934 - connectDB - DEBUG - Fetched the existing Index
+2025-01-26 16:10:27,136 - connectDB - WARNING - Index 'lakshmandiwakar' already exists. Proceeding without creating it.
+2025-01-26 16:10:36,806 - connectDB - DEBUG - Created the Pinecone Instance
+2025-01-26 16:10:37,707 - connectDB - DEBUG - Fetched the existing Index
+2025-01-26 16:10:39,404 - connectDB - WARNING - Index 'lakshmandiwakar' already exists. Proceeding without creating it.
+2025-01-26 16:10:53,040 - connectDB - DEBUG - Created the Pinecone Instance
+2025-01-26 16:10:54,264 - connectDB - DEBUG - Fetched the existing Index
+2025-01-26 16:10:57,009 - connectDB - WARNING - Index 'lakshmandiwakar' already exists. Proceeding without creating it.
+2025-01-26 16:12:13,429 - connectDB - DEBUG - Created the Pinecone Instance
+2025-01-26 16:12:14,344 - connectDB - DEBUG - Fetched the existing Index
+2025-01-26 16:12:17,461 - connectDB - WARNING - Index 'lakshmandiwakar' already exists. Proceeding without creating it.
+2025-01-26 16:12:34,940 - connectDB - DEBUG - Created the Pinecone Instance
+2025-01-26 16:12:35,890 - connectDB - DEBUG - Fetched the existing Index
+2025-01-26 16:12:38,268 - connectDB - WARNING - Index 'lakshmandiwakar' already exists. Proceeding without creating it.
+2025-01-26 16:13:28,287 - connectDB - DEBUG - Created the Pinecone Instance
+2025-01-26 16:13:29,646 - connectDB - DEBUG - Fetched the existing Index
+2025-01-26 16:13:32,846 - connectDB - WARNING - Index 'lakshmandiwakar' already exists. Proceeding without creating it.
+2025-01-26 16:13:56,649 - connectDB - DEBUG - Created the Pinecone Instance
+2025-01-26 16:13:57,889 - connectDB - DEBUG - Fetched the existing Index
+2025-01-26 16:14:01,032 - connectDB - WARNING - Index 'lakshmandiwakar' already exists. Proceeding without creating it.
+2025-01-26 16:15:17,881 - connectDB - DEBUG - Created the Pinecone Instance
+2025-01-26 16:15:18,734 - connectDB - DEBUG - Fetched the existing Index
+2025-01-26 16:15:20,687 - connectDB - WARNING - Index 'lakshmandiwakar' already exists. Proceeding without creating it.
+2025-01-26 16:15:41,862 - connectDB - DEBUG - Created the Pinecone Instance
+2025-01-26 16:15:43,053 - connectDB - DEBUG - Fetched the existing Index
+2025-01-26 16:15:45,173 - connectDB - WARNING - Index 'lakshmandiwakar' already exists. Proceeding without creating it.
+2025-01-26 16:19:58,847 - connectDB - DEBUG - Created the Pinecone Instance
+2025-01-26 16:19:59,772 - connectDB - DEBUG - Fetched the existing Index
+2025-01-26 16:20:01,588 - connectDB - WARNING - Index 'lakshmandiwakar' already exists. Proceeding without creating it.
+2025-01-26 16:26:08,347 - connectDB - DEBUG - Created the Pinecone Instance
+2025-01-26 16:26:09,358 - connectDB - DEBUG - Fetched the existing Index
+2025-01-26 16:26:11,891 - connectDB - WARNING - Index 'lakshmandiwakar' already exists. Proceeding without creating it.
+2025-01-26 16:26:21,611 - connectDB - DEBUG - Created the Pinecone Instance
+2025-01-26 16:26:22,578 - connectDB - DEBUG - Fetched the existing Index
+2025-01-26 16:26:24,919 - connectDB - WARNING - Index 'lakshmandiwakar' already exists. Proceeding without creating it.
+2025-01-26 16:27:16,677 - connectDB - DEBUG - Created the Pinecone Instance
+2025-01-26 16:27:18,153 - connectDB - DEBUG - Fetched the existing Index
+2025-01-26 16:27:20,745 - connectDB - WARNING - Index 'lakshmandiwakar' already exists. Proceeding without creating it.
+2025-01-26 16:29:35,025 - connectDB - DEBUG - Created the Pinecone Instance
+2025-01-26 16:29:35,970 - connectDB - DEBUG - Fetched the existing Index
+2025-01-26 16:29:38,290 - connectDB - WARNING - Index 'lakshmandiwakar' already exists. Proceeding without creating it.
