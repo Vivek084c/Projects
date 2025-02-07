@@ -1,6 +1,6 @@
-## Directory Structure
-|– Lakshman Diwaakar/                   
-|–---- awsDiwaakar/                   
+## Gen Ai RAG
+|– Gen Ai RAG/                   
+|–---- aws/                   
 |–---- data/                   
 |–---- logs/                   
 |–---- reserch/                   
@@ -65,4 +65,67 @@ In the future, we can integrate **forecasting algorithms** to predict trends rel
 
    *Integration Approach:* An LSTM model could be trained on past mutual fund performance data and then used to predict future fund allocations and returns. The predictions can be fed into the existing pipeline to provide users with actionable insights.
 
+
+These forecasting models will be integrated into the existing pipeline, allowing for more advanced analytics and predictions based on historical data.
+
+
+
+## FastAPI Blog
+               
+
+├FastAPI Blog   
+├── pycache       
+├── database.py  
+├── main.py    
+├── model.py     
+├── requirements.txt    
+├── test.txt            
+
+## Project Overview
+
+This FastAPI application provides a CRUD API for managing blog posts stored in MongoDB. It supports creating, retrieving (single/all), updating, and deleting blogs asynchronously. The Blog and UpdateBlog models define validation rules. The database connection uses Motor (AsyncIOMotorClient). Each API route interacts with MongoDB, converting documents using blog_helper for consistency.
+
+## Techonologies Used
+📌 Technologies Used
+
+1️⃣ FastAPI 
+
+A high-performance web framework for building APIs with Python, using asynchronous capabilities and automatic OpenAPI documentation for quick API development.
+
+2️⃣ Pydantic 
+
+Used for data validation and serialization; ensures correct input structure for Blog models using BaseModel, enforcing field constraints and types.
+
+3️⃣ MongoDB 
+
+A NoSQL document database used to store blog posts as JSON-like objects, providing flexibility and scalability for dynamic content management.
+
+4️⃣ Motor (AsyncIOMotorClient) 
+
+An asynchronous Python driver for MongoDB, enabling non-blocking database operations, improving efficiency and performance in FastAPI applications handling concurrent requests.
+
+5️⃣ Bson & ObjectId 
+
+bson (Binary JSON) handles MongoDB’s native data format, and ObjectId uniquely identifies each document in the database for efficient querying.
+
+
+## How It Works
+
+
+1️⃣ Request Handling (20 words)
+The FastAPI server receives an API request for creating, retrieving, updating, or deleting blog posts and routes it accordingly.
+
+2️⃣ Data Validation (20 words)
+The request data is validated using Pydantic models (Blog and UpdateBlog), ensuring correct field constraints, data types, and required fields.
+
+3️⃣ Database Interaction (20 words)
+The API uses Motor (AsyncIOMotorClient) to perform asynchronous CRUD operations on the MongoDB database, ensuring non-blocking execution.
+
+4️⃣ Data Processing (20 words)
+Retrieved MongoDB documents are converted into structured Python dictionaries using the blog_helper function to maintain a consistent API response format.
+
+5️⃣ Response Generation (20 words)
+The API returns a structured JSON response with blog data or an HTTPException if the requested blog post is not found.
+
+=======
 These forecasting models will be integrated into the existing pipeline, allowing for more advanced analytics and predictions based on historical data.
